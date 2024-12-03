@@ -1,0 +1,34 @@
+* {
+
+    font-style: italic;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color:violet;
+}
+
+video {
+
+    margin-left: 170px;
+    margin-top: 40px;
+    border-radius: 40px;  
+    width: 300px;
+}
+
+.video-chicken {
+
+    display:inline-block;
+    
+}
+
+img {
+
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-left: 200px;
+}

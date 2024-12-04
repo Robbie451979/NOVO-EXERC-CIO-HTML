@@ -160,3 +160,66 @@ h6 {
     margin-top: -460px;
     
 }
+
+@media screen and (max-width: 372px) {
+
+body {
+
+    background-color: yellow;
+}
+
+h1 {
+
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.container {
+
+    display: block
+}
+
+.div-1 {
+
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 5px;
+    color: aqua;
+    text-shadow: 5px 5px 10px cadetblue;
+    margin-bottom: 30px;
+
+}
+
+.div-2 {
+
+    font-size: 15px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 12px;
+    height: 200px;
+    width: 250px;
+    margin: 15px;
+    padding-top: 40px;
+    margin-left: 25px;
+        
+}
+
+.div-3 {
+
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 12px;
+    height: 220px;
+    width: 250px;
+    margin: 30px;
+    margin-left: 25px;
+    margin-top: 15px;
+
+
+}
+
+ }

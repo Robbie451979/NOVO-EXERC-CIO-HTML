@@ -18,6 +18,7 @@ video {
     margin-top: 40px;
     border-radius: 40px;  
     width: 300px;
+    height: 300px;
 }
 
 .video-chicken {
@@ -31,4 +32,27 @@ img {
     border-radius: 50px;
     margin-top: 70px;
     margin-left: 200px;
+}
+
+@media screen and (max-width: 372px) {
+
+    video {
+
+        margin-left: 30px;
+        margin-top: 40px;
+        border-radius: 40px;  
+        width: 300px;
+        height: 300px;
+    }
+    
+      
+    img {
+    
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 300px;
+        height: 250px;
+    } 
+    
 }

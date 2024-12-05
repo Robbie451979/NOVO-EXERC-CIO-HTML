@@ -9,22 +9,22 @@
 
 form {
 
-    margin:50px;
+    margin: 50px;
     margin-left: 25vw;
     margin-top: 60px;
     font-size: 20px;
-    
+
 }
 
 h5 {
 
     font-size: 70px;
-    
+
 }
 
 .form {
 
-    background-color:lightgreen;
+    background-color: lightgreen;
     padding: 1px;
     margin: 45px;
     margin-top: 10px;
@@ -36,8 +36,8 @@ h5 {
 .main-button {
 
     white-space: nowrap;
-    display:flex;
-    
+    display: flex;
+
 }
 
 .button-reset {
@@ -47,12 +47,12 @@ h5 {
     font-weight: 20px;
     margin: 10px;
     cursor: pointer;
-    background-color:tomato;
+    background-color: tomato;
     border-radius: 20px;
     width: 300px;
     height: 75px;
     border: 450px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 300px;
 
 }
@@ -60,7 +60,7 @@ h5 {
 .button-submit {
 
     display: inline-block;
-    background-color:aqua;
+    background-color: aqua;
     font-size: 30px;
     font-weight: 20px;
     margin: 10px;
@@ -69,8 +69,91 @@ h5 {
     width: 300px;
     height: 75px;
     border: 450px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 120px;
-    
+
 }
 
+@media screen and (max-width: 372px) {
+
+    h5 {
+
+        font-size: 30px;
+
+    }
+
+
+    form {
+
+        margin: 10px;
+        margin-left: 10vw;
+        margin-top: 20px;
+        font-size: 10px;
+
+    }
+
+    .form {
+
+        background-color: lightgreen;
+        padding: 1px;
+        margin: 25px;
+        margin-top: 10px;
+        margin: 10px 45px 10px;
+        border-radius: 20px;
+
+    }
+
+    .file {
+
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .input-file {
+
+        font-size: 10px;
+        margin-top: 3px;
+    }
+
+    .main-button {
+
+        white-space: nowrap;
+        display: block;
+
+    }
+
+    .button-reset {
+
+        display: block;
+        font-size: 25px;
+        font-weight: 20px;
+        margin: 10px;
+        cursor: pointer;
+        background-color: tomato;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        border: 450px;
+        margin-top: 40px;
+        margin-left: 86px;
+
+    }
+
+    .button-submit {
+
+        display: inline-block;
+        background-color: aqua;
+        font-size: 25px;
+        font-weight: 20px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        border: 450px;
+        margin-top: -30px;
+        margin-left: 86px;
+
+    }
+
+}

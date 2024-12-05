@@ -19,3 +19,18 @@ body {
 
     background-color:cornflowerblue;
 }
+
+
+@media screen and (max-width: 372px) {
+
+    iframe {
+
+        margin-left: 33px;
+        margin-top: 50px;
+        border-radius: 40px;
+        width: 300px;
+        height: 300px;
+    
+    }
+    
+}
